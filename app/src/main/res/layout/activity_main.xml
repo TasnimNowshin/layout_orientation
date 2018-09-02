@@ -17,12 +17,20 @@
         android:layout_gravity="center"
         android:layout_marginTop="2dp">
 
-        <LinearLayout
+        <android.support.v7.widget.CardView
             android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            app:cardCornerRadius="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:gravity="center"
-            android:layout_weight="1">
+            >
             
             <ImageView
                 android:layout_width="64dp"
@@ -59,13 +67,22 @@
                 android:textColor="@android:color/black"
                 android:layout_gravity="center_horizontal" />
         </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            app:cardCornerRadius="15dp">
 
         <LinearLayout
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:layout_gravity="center"
-            android:layout_weight="1">
+            android:layout_gravity="center">
 
             <ImageView
                 android:layout_width="64dp"
@@ -103,6 +120,7 @@
                 android:textColor="@android:color/black"/>
 
         </LinearLayout>
+        </android.support.v7.widget.CardView>
 
         </LinearLayout>
 
@@ -111,15 +129,22 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_gravity="center"
-        android:weightSum="2"
-        android:layout_marginTop="20dp">
+        android:weightSum="2">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="15dp">
 
         <LinearLayout
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:gravity="center"
-            android:layout_weight="1">
+            android:gravity="center">
 
             <ImageView
                 android:layout_width="64dp"
@@ -156,13 +181,22 @@
                 android:textColor="@android:color/black"
                 android:layout_gravity="center_horizontal" />
         </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="15dp">
         
         <LinearLayout
-            android:layout_width="0dp"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:gravity="center"
-            android:layout_weight="1">
+            android:gravity="center">
             <ImageView
                 android:layout_width="64dp"
                 android:layout_height="64dp"
@@ -199,17 +233,12 @@
                 android:textColor="@android:color/black"/>
 
         </LinearLayout>
+        </android.support.v7.widget.CardView>
         
 
     </LinearLayout>
 
-    <android.support.v7.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
-        app:cardElevation="8dp"
-        app:cardCornerRadius="8dp">
+
     
     <LinearLayout
         android:layout_width="match_parent"
@@ -218,46 +247,13 @@
         android:orientation="vertical"
         android:layout_marginTop="10dp">
 
-        <ImageView
-            android:layout_width="64dp"
-            android:layout_height="64dp"
-            android:layout_gravity="center"
-            android:background="@drawable/circle5"
-            android:padding="10dp"
-            android:src="@drawable/ic_contact_phone_black_24dp" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="contact Us"
-            android:textStyle="bold"
-            android:textColor="@color/darkPurple"
-            android:textSize="25dp"
-            android:layout_marginTop="5dp"
-            android:layout_gravity="center_horizontal"/>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:background="@android:color/darker_gray"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginLeft="10dp"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Contact us for any query"
-            android:layout_marginTop="5dp"
-            android:layout_marginRight="40dp"
-            android:layout_marginLeft="60dp"
-            android:layout_marginStart="10dp"
-            android:textSize="20dp"
-            android:layout_gravity="center_horizontal"
-            android:textColor="@android:color/black"/>
+
 
 
 
     </LinearLayout>
 
-    </android.support.v7.widget.CardView>
+
 
 
 
